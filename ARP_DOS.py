@@ -1,4 +1,4 @@
-from scapy.all import Ether, ARP, srp, send
+from scapy.all import Ether, ARP, srp, send, getmacbyip
 import argparse
 import time
 import os
